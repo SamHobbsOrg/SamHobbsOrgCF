@@ -1,13 +1,21 @@
 @inherits LayoutComponentBase
 
 <div class="page">
+
     <div class="sidebar">
         <NavMenu />
     </div>
 
-    <main>
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
+<main>
+
+<article class="content px-4">
+	@Body
+</article>
+        
+<footer>
+	<p style="text-align: center;">This site is hosted by <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>.</p>    
+</footer>
+
+</main>
+
 </div>
